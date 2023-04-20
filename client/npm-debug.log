@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'bugs',
+1 verbose cli   'truffle-client' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly fetchPackageMetaData truffle-client
+5 silly fetchNamedPackageData truffle-client
+6 silly mapToRegistry name truffle-client
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry data Result {
+9 silly mapToRegistry   raw: 'truffle-client',
+9 silly mapToRegistry   scope: null,
+9 silly mapToRegistry   escapedName: 'truffle-client',
+9 silly mapToRegistry   name: 'truffle-client',
+9 silly mapToRegistry   rawSpec: '',
+9 silly mapToRegistry   spec: 'latest',
+9 silly mapToRegistry   type: 'tag' }
+10 silly mapToRegistry uri https://registry.npmjs.org/truffle-client
+11 verbose request uri https://registry.npmjs.org/truffle-client
+12 verbose request no auth needed
+13 info attempt registry request try #1 at 5:41:16 PM
+14 verbose request id 1036af887ef0a404
+15 http request GET https://registry.npmjs.org/truffle-client
+16 http 404 https://registry.npmjs.org/truffle-client
+17 verbose headers { date: 'Wed, 01 Mar 2023 16:41:18 GMT',
+17 verbose headers   'content-type': 'application/json',
+17 verbose headers   'content-length': '21',
+17 verbose headers   connection: 'keep-alive',
+17 verbose headers   'cf-ray': '7a12d8bd782e0229-ZRH',
+17 verbose headers   vary: 'Accept-Encoding',
+17 verbose headers   server: 'cloudflare' }
+18 silly get cb [ 404,
+18 silly get   { date: 'Wed, 01 Mar 2023 16:41:18 GMT',
+18 silly get     'content-type': 'application/json',
+18 silly get     'content-length': '21',
+18 silly get     connection: 'keep-alive',
+18 silly get     'cf-ray': '7a12d8bd782e0229-ZRH',
+18 silly get     vary: 'Accept-Encoding',
+18 silly get     server: 'cloudflare' } ]
+19 silly fetchPackageMetaData Error: Not found : truffle-client
+19 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+19 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+19 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+19 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+19 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+19 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+19 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+19 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+19 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+19 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+19 silly fetchPackageMetaData  error for truffle-client { Error: Not found : truffle-client
+19 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+19 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+19 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+19 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+19 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+19 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+19 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+19 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+19 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+19 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'truffle-client', statusCode: 404, code: 'E404' }
+20 verbose stack Error: Not found : truffle-client
+20 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+20 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+20 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+20 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+20 verbose stack     at emitTwo (events.js:106:13)
+20 verbose stack     at Request.emit (events.js:191:7)
+20 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+20 verbose stack     at emitOne (events.js:96:13)
+20 verbose stack     at Request.emit (events.js:188:7)
+20 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+21 verbose statusCode 404
+22 verbose pkgid truffle-client
+23 verbose cwd /Users/tomshnaider/Desktop/my-eternitee-box/client
+24 error Darwin 18.7.0
+25 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "bugs" "truffle-client"
+26 error node v6.10.3
+27 error npm  v3.10.10
+28 error code E404
+29 error 404 Not found : truffle-client
+30 error 404
+31 error 404 'truffle-client' is not in the npm registry.
+32 error 404 You should bug the author to publish it (or use the name yourself!)
+33 error 404 Note that you can also install from a
+34 error 404 tarball, folder, http url, or git url.
+35 verbose exit [ 1, true ]
